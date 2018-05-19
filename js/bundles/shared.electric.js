@@ -10711,9 +10711,9 @@ goog.loadModule(function (exports) {
         ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-12/icon-12.css');
         ie_close('link');
-        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-16/icon-16.css');
-        ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/galano/galano.css');
+        ie_close('link');
+        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-16/icon-16.css');
         ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/senna/senna.css');
         ie_close('link');
