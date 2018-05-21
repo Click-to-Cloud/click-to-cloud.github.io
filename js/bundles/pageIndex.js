@@ -153,7 +153,7 @@ goog.loadModule(function (exports) {
    * @suppress {checkTypes}
    */
   function $render(opt_data, opt_ignored, opt_ijData) {
-    var param234 = function param234() {
+    var param161 = function param161() {
       $header(opt_data, null, opt_ijData);
       $why(null, null, opt_ijData);
       $features(null, null, opt_ijData);
@@ -161,7 +161,7 @@ goog.loadModule(function (exports) {
       $highlights(null, null, opt_ijData);
       $templateAlias2(opt_data, null, opt_ijData);
     };
-    $templateAlias1(soy.$$assignDefaults({ content: param234 }, opt_data), null, opt_ijData);
+    $templateAlias1(soy.$$assignDefaults({ content: param161 }, opt_data), null, opt_ijData);
   }
   exports.render = $render;
   if (goog.DEBUG) {
@@ -181,12 +181,12 @@ goog.loadModule(function (exports) {
     ie_open('header', null, null, 'class', 'header');
     ie_open('div', null, null, 'class', 'container');
     ie_open('h1', null, null, 'class', 'header-title');
-    var dyn22 = opt_data.site.title;
-    if (typeof dyn22 == 'function') dyn22();else if (dyn22 != null) itext(dyn22);
+    var dyn16 = opt_data.site.title;
+    if (typeof dyn16 == 'function') dyn16();else if (dyn16 != null) itext(dyn16);
     ie_close('h1');
     ie_open('h2', null, null, 'class', 'header-subtitle');
-    var dyn23 = opt_data.site.index.description;
-    if (typeof dyn23 == 'function') dyn23();else if (dyn23 != null) itext(dyn23);
+    var dyn17 = opt_data.site.index.description;
+    if (typeof dyn17 == 'function') dyn17();else if (dyn17 != null) itext(dyn17);
     ie_close('h2');
     ie_close('div');
     ie_close('header');
@@ -434,6 +434,22 @@ goog.loadModule(function (exports) {
     ie_close('div');
     ie_open('div', null, null, 'class', 'col-md-5 col-md-offset-2 col-md-pull-6');
     ie_open('img', null, null, 'class', 'highlight-image', 'src', '/images/highlight_8.png', 'alt', 'Mapper.apex', 'height', '200');
+    ie_close('img');
+    ie_close('div');
+    ie_close('section');
+    ie_open('section', null, null, 'class', 'highlight row');
+    ie_open('div', null, null, 'class', 'col-md-6 col-md-offset-2');
+    ie_open('h4', null, null, 'class', 'highlight-title');
+    ie_open('a', null, null, 'href', 'https://github.com/Click-to-Cloud/Flow.apex');
+    itext('Flow.apex');
+    ie_close('a');
+    ie_close('h4');
+    ie_open('p', null, null, 'class', 'highlight-description');
+    itext('Flow.apex is a library to help you weave functions in a procedural style.');
+    ie_close('p');
+    ie_close('div');
+    ie_open('div', null, null, 'class', 'col-md-5 col-md-offset-1');
+    ie_open('img', null, null, 'class', 'highlight-image', 'src', '/images/highlight_9.png', 'alt', 'Flow.apex', 'height', '200');
     ie_close('img');
     ie_close('div');
     ie_close('section');
