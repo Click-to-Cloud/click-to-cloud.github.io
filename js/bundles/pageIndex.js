@@ -453,6 +453,22 @@ goog.loadModule(function (exports) {
     ie_close('img');
     ie_close('div');
     ie_close('section');
+    ie_open('section', null, null, 'class', 'highlight row');
+    ie_open('div', null, null, 'class', 'col-md-6 col-md-push-9');
+    ie_open('h4', null, null, 'class', 'highlight-title');
+    ie_open('a', null, null, 'href', 'https://github.com/Click-to-Cloud/Config.apex');
+    itext('Config.apex');
+    ie_close('a');
+    ie_close('h4');
+    ie_open('p', null, null, 'class', 'highlight-description');
+    itext('Config.apex is a library to manage your configurations and cache in an elegant way.');
+    ie_close('p');
+    ie_close('div');
+    ie_open('div', null, null, 'class', 'col-md-5 col-md-offset-2 col-md-pull-6');
+    ie_open('img', null, null, 'class', 'highlight-image', 'src', '/images/highlight_10.png', 'alt', 'Config.apex', 'height', '200');
+    ie_close('img');
+    ie_close('div');
+    ie_close('section');
     ie_close('div');
     ie_close('div');
   }
