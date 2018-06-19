@@ -565,6 +565,22 @@ goog.loadModule(function (exports) {
     ie_close('img');
     ie_close('div');
     ie_close('section');
+    ie_open('section', null, null, 'class', 'highlight row');
+    ie_open('div', null, null, 'class', 'col-md-6 col-md-offset-2');
+    ie_open('h4', null, null, 'class', 'highlight-title');
+    ie_open('a', null, null, 'href', 'https://github.com/Click-to-Cloud/Atom.apex');
+    itext('Atom.apex');
+    ie_close('a');
+    ie_close('h4');
+    ie_open('p', null, null, 'class', 'highlight-description');
+    itext('Atom.apex is a library that tries to save you from the doom of Salesforce governor limits.');
+    ie_close('p');
+    ie_close('div');
+    ie_open('div', null, null, 'class', 'col-md-5 col-md-offset-1');
+    ie_open('img', null, null, 'class', 'highlight-image', 'src', '/images/highlight_17.png', 'alt', 'Atom.apex', 'height', '200');
+    ie_close('img');
+    ie_close('div');
+    ie_close('section');
     ie_close('div');
     ie_close('div');
   }
