@@ -581,6 +581,22 @@ goog.loadModule(function (exports) {
     ie_close('img');
     ie_close('div');
     ie_close('section');
+    ie_open('section', null, null, 'class', 'highlight row');
+    ie_open('div', null, null, 'class', 'col-md-6 col-md-push-9');
+    ie_open('h4', null, null, 'class', 'highlight-title');
+    ie_open('a', null, null, 'href', 'https://github.com/Click-to-Cloud/Sweet.apex');
+    itext('Sweet.apex');
+    ie_close('a');
+    ie_close('h4');
+    ie_open('p', null, null, 'class', 'highlight-description');
+    itext('Sweet.apex is the next generation of Apex development, transpiling Sweet Apex(a feature-rich Apex-like code) to Apex classes.');
+    ie_close('p');
+    ie_close('div');
+    ie_open('div', null, null, 'class', 'col-md-5 col-md-offset-2 col-md-pull-6');
+    ie_open('img', null, null, 'class', 'highlight-image', 'src', '/images/highlight_18.png', 'alt', 'Sweet.apex', 'height', '200');
+    ie_close('img');
+    ie_close('div');
+    ie_close('section');
     ie_close('div');
     ie_close('div');
   }
