@@ -55,23 +55,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var QSexy = function (_Component) {
-  _inherits(QSexy, _Component);
+var PnzXY = function (_Component) {
+  _inherits(PnzXY, _Component);
 
-  function QSexy() {
-    _classCallCheck(this, QSexy);
+  function PnzXY() {
+    _classCallCheck(this, PnzXY);
 
-    return _possibleConstructorReturn(this, (QSexy.__proto__ || Object.getPrototypeOf(QSexy)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (PnzXY.__proto__ || Object.getPrototypeOf(PnzXY)).apply(this, arguments));
   }
 
-  return QSexy;
+  return PnzXY;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(QSexy, _indexSoy2.default);
+_metalSoy2.default.register(PnzXY, _indexSoy2.default);
 
-exports.default = QSexy;
+exports.default = PnzXY;
 
 /***/ }),
 
@@ -84,7 +84,7 @@ exports.default = QSexy;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.templates = exports.QSexy = undefined;
+exports.templates = exports.PnzXY = undefined;
 
 var _metalComponent = __webpack_require__(2);
 
@@ -110,11 +110,11 @@ goog.loadModule(function (exports) {
   // Please don't edit this file by hand.
 
   /**
-   * @fileoverview Templates in namespace QSexy.
+   * @fileoverview Templates in namespace PnzXY.
    * @public
    */
 
-  goog.module('QSexy.incrementaldom');
+  goog.module('PnzXY.incrementaldom');
 
   /** @suppress {extraRequire} */
   var soy = goog.require('soy');
@@ -173,7 +173,9 @@ goog.loadModule(function (exports) {
       itext('Query.apex');
       ie_close('td');
       ie_open('td');
-      itext('Under Development');
+      ie_open('a', null, null, 'href', '/', 'onclick', 'location.assign(\'/query-apex\')');
+      itext('Docs');
+      ie_close('a');
       ie_close('td');
       ie_close('tr');
       ie_open('tr');
@@ -304,6 +306,44 @@ goog.loadModule(function (exports) {
       ie_close('a');
       ie_close('td');
       ie_close('tr');
+      ie_open('tr');
+      ie_open('td');
+      itext('Log.apex');
+      ie_close('td');
+      ie_open('td');
+      ie_open('a', null, null, 'href', '/', 'onclick', 'location.assign(\'/log-apex\')');
+      itext('Docs');
+      ie_close('a');
+      ie_close('td');
+      ie_close('tr');
+      ie_open('tr');
+      ie_open('td');
+      itext('Pack.apex');
+      ie_close('td');
+      ie_open('td');
+      itext('Under Development');
+      ie_close('td');
+      ie_close('tr');
+      ie_open('tr');
+      ie_open('td');
+      itext('Atom.apex');
+      ie_close('td');
+      ie_open('td');
+      ie_open('a', null, null, 'href', '/', 'onclick', 'location.assign(\'/atom-apex\')');
+      itext('Docs');
+      ie_close('a');
+      ie_close('td');
+      ie_close('tr');
+      ie_open('tr');
+      ie_open('td');
+      itext('Sweet.apex');
+      ie_close('td');
+      ie_open('td');
+      ie_open('a', null, null, 'href', '/', 'onclick', 'location.assign(\'/sweet-apex\')');
+      itext('Docs');
+      ie_close('a');
+      ie_close('td');
+      ie_close('tr');
       ie_close('tbody');
       ie_close('table');
       ie_open('input', null, null, 'type', 'hidden', 'value', opt_data.page.title);
@@ -315,7 +355,7 @@ goog.loadModule(function (exports) {
   }
   exports.render = $render;
   if (goog.DEBUG) {
-    $render.soyTemplateName = 'QSexy.render';
+    $render.soyTemplateName = 'PnzXY.render';
   }
 
   exports.render.params = ["page", "site"];
@@ -324,20 +364,20 @@ goog.loadModule(function (exports) {
   return exports;
 });
 
-var QSexy = function (_Component) {
-  _inherits(QSexy, _Component);
+var PnzXY = function (_Component) {
+  _inherits(PnzXY, _Component);
 
-  function QSexy() {
-    _classCallCheck(this, QSexy);
+  function PnzXY() {
+    _classCallCheck(this, PnzXY);
 
-    return _possibleConstructorReturn(this, (QSexy.__proto__ || Object.getPrototypeOf(QSexy)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (PnzXY.__proto__ || Object.getPrototypeOf(PnzXY)).apply(this, arguments));
   }
 
-  return QSexy;
+  return PnzXY;
 }(_metalComponent2.default);
 
-_metalSoy2.default.register(QSexy, templates);
-exports.QSexy = QSexy;
+_metalSoy2.default.register(PnzXY, templates);
+exports.PnzXY = PnzXY;
 exports.templates = templates;
 exports.default = templates;
 /* jshint ignore:end */
