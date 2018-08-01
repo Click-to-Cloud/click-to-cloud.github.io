@@ -10709,9 +10709,9 @@ goog.loadModule(function (exports) {
         ie_close('title');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto+Mono');
         ie_close('link');
-        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-12/icon-12.css');
-        ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/galano/galano.css');
+        ie_close('link');
+        ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-12/icon-12.css');
         ie_close('link');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', '/vendor/icon-16/icon-16.css');
         ie_close('link');
@@ -10725,8 +10725,8 @@ goog.loadModule(function (exports) {
         ie_void('script', null, null, 'src', '/vendor/senna/senna.js');
         ie_void('script', null, null, 'src', '/vendor/codemirror/lib/codemirror.js');
         ie_void('script', null, null, 'src', '/vendor/codemirror/mode/css/css.js');
-        ie_void('script', null, null, 'src', '/vendor/codemirror/mode/xml/xml.js');
         ie_void('script', null, null, 'src', '/vendor/codemirror/mode/javascript/javascript.js');
+        ie_void('script', null, null, 'src', '/vendor/codemirror/mode/xml/xml.js');
         ie_open('link', null, null, 'rel', 'stylesheet', 'href', (($$temp = opt_data.site.basePath) == null ? '' : $$temp) + '/styles/main.css');
         ie_close('link');
         ie_close('electrichead');
